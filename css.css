@@ -26,7 +26,8 @@ header {
   align-items: center;
 }
 header h1 {
-  font-size: 2rem;
+  font-size: 1.6rem;
+  
 } 
 ul {
   list-style: none;
@@ -124,9 +125,9 @@ footer {
     place-items: center;
   }
 }
-@media (max-width: 498px) {
+@media (max-width: 485px) {
   .products {
-    grid-template-columns: repeat(auto-fit, 85%);
+    grid-template-columns: repeat(auto-fit, 75%);
     place-items: center;
   }
 }
@@ -150,4 +151,7 @@ footer {
     justify-content: center;
     gap: 65%;
   }
+  header h1 {
+    width: 124px;
+  } 
 }
