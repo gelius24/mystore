@@ -164,7 +164,7 @@ footer {
   } 
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1260px) {
   .products{
     grid-template-columns: repeat(4, 240px);
   }
