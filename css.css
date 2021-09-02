@@ -124,7 +124,7 @@ footer {
     grid-template-columns: repeat(auto-fit, 48%) !important;
     row-gap: 18px;
     column-gap: 10px;
-    background-color: lightcoral;
+    
   }
   .product{
     height: 90vw !important;
