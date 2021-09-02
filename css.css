@@ -121,28 +121,17 @@ footer {
 
 @media (max-width: 460px) {
   .products{
-    grid-template-columns: repeat(auto-fit, 40%) !important;
+    grid-template-columns: repeat(auto-fit, 48%) !important;
     row-gap: 18px;
-    column-gap: 16px;
+    column-gap: 10px;
+    background-color: lightcoral;
   }
   .product{
-    border: yellow 1px solid;
-    height: 266px !important;
-  }
-  .product{
-    min-width: fit-content;
+    height: 90vw !important;
   }
   .price{
     font-size: 1.3rem;
     margin-top: 40px;
-  }
-}
-
-@media (max-width: 460px) {
-  .products{
-    grid-template-columns: repeat(auto-fit, 45%) !important;
-    row-gap: 18px;
-    column-gap: 16px;
   }
 }
 
